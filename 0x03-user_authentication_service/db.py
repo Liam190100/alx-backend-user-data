@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Create a new DB module.
 """
-rom sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm.exc import NoResultFound
 from sqlalchemy.orm.session import Session
 from sqlalchemy import create_engine, tuple_
